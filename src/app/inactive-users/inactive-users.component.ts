@@ -1,6 +1,6 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, Injectable } from '@angular/core';
 import { UsersManagementService } from '../shared/services/users-management.service';
-
+@Injectable()
 @Component({
   selector: 'app-inactive-users',
   templateUrl: './inactive-users.component.html',

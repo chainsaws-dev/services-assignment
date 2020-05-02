@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output, Injectable } from '@angular/core';
+import { Component, Injectable } from '@angular/core';
 import { UsersManagementService } from '../shared/services/users-management.service';
 @Injectable()
 @Component({
