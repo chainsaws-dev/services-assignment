@@ -4,7 +4,11 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class UsersManagementService {
-  constructor(public activeUsers,  public inactiveUsers) { }
+  public activeUsers = ['Max', 'Anna'];
+  public inactiveUsers = ['Chris', 'Manu'];
+  constructor() {
+
+  }
 
   onSetToInactive(id: number) {
     this.inactiveUsers.push(this.activeUsers[id]);

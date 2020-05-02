@@ -1,6 +1,6 @@
 import { Component, Injectable } from '@angular/core';
 import { UsersManagementService } from '../shared/services/users-management.service';
-@Injectable()
+
 @Component({
   selector: 'app-active-users',
   templateUrl: './active-users.component.html',
